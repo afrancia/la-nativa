@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es-PE">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#0C0B0B">
+  <meta name="description" content="Carta de La Nativa: hamburguesas caseras, pizzas artesanales, salchipapas y más. Food truck en Mala, Lima.">
+  <title>La Nativa · Carta</title>
+
+  <link rel="icon" type="image/svg+xml" href="assets/icono.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="preload" href="assets/SwungNote.otf" as="font" type="font/otf" crossorigin>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a class="skip-link" href="#menu-container">Saltar a la carta</a>
+
+  <header class="hero">
+    <div class="hero__inner">
+      <img class="hero__logo" src="assets/logo-apilado.svg" alt="La Nativa" width="240" height="145">
+      <h1 class="visually-hidden">La Nativa — Carta</h1>
+      <p class="hero__tagline" id="tagline">Hamburguesas, pizzas y salchipapas hechas al momento</p>
+      <p class="hero__place">
+        <svg aria-hidden="true" viewBox="0 0 24 24" width="16" height="16"><path fill="currentColor" d="M12 2a7 7 0 0 0-7 7c0 5.2 7 13 7 13s7-7.8 7-13a7 7 0 0 0-7-7zm0 9.5A2.5 2.5 0 1 1 12 6.5a2.5 2.5 0 0 1 0 5z"/></svg>
+        <span id="ubicacion">Mala, Lima – Perú</span>
+      </p>
+    </div>
+  </header>
+
+  <nav class="filters" aria-label="Filtrar la carta por categoría">
+    <ul class="filters__list" id="filters">
+      <!-- <li><button type="button" class="filter-btn is-active" data-categoria="Todo" aria-pressed="true">Todo</button></li> -->
+      <li><button type="button" class="filter-btn is-active" data-categoria="Pedidas" aria-pressed="true">Más Pedidas</button></li>
+      <li><button type="button" class="filter-btn" data-categoria="Hamburguesas" aria-pressed="false">Hamburguesas</button></li>
+      <li><button type="button" class="filter-btn" data-categoria="Salchipapas" aria-pressed="false">Salchipapas</button></li>
+      <li><button type="button" class="filter-btn" data-categoria="Broaster" aria-pressed="false">Broaster</button></li>
+      <li><button type="button" class="filter-btn" data-categoria="Economicas" aria-pressed="false">Económicas</button></li>
+      <li><button type="button" class="filter-btn" data-categoria="Complementos" aria-pressed="false">Complementos</button></li>
+      <li><button type="button" class="filter-btn" data-categoria="Bebidas" aria-pressed="false">Bebidas</button></li>
+    </ul>
+  </nav>
+
+  <p class="visually-hidden" id="status" role="status" aria-live="polite"></p>
+
+  <main id="menu-container" class="menu" tabindex="-1"></main>
+
+  <section class="pagos" id="pagos" aria-labelledby="pagos-titulo" hidden>
+    <h2 class="pagos__title" id="pagos-titulo">Paga con tu billetera digital</h2>
+    <p class="pagos__text" id="pagos-texto"></p>
+    <div class="pagos__grid" id="pagos-grid"></div>
+  </section>
+
+  <footer class="footer">
+    <img class="footer__sello" src="assets/sello.svg" alt="" width="96" height="98">
+    <p>© <span id="year"></span> La Nativa · Mala, Lima – Perú</p>
+    <p class="footer__note" id="horario" hidden></p>
+  </footer>
+
+  <script src="app.js" defer></script>
+</body>
+</html>

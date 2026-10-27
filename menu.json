@@ -1,0 +1,286 @@
+{
+  "negocio": {
+    "nombre": "La Nativa",
+    "eslogan": "Hamburguesas, pizzas y salchipapas 100% artesanales.",
+    "ubicacion": "Dignidad Nacional – Mala",
+    "horario": "Lun - Dom desde las 6:00 pm hasta 11:00 pm",
+    "whatsapp": ""
+  },
+
+  "pagos": {
+    "titulo": "Paga con tu billetera digital",
+    "texto": "Escanea el QR, ingresa el monto y muéstranos la confirmación en tu pantalla.",
+    "metodos": [
+      {
+        "id": "plin",
+        "nombre": "Plin",
+        "qr": "assets/qr-plin.png"
+      }
+    ]
+  },
+
+  "platos": [
+    {
+      "id": 100,
+      "categoria": "Hamburguesas",
+      "nombre": "Crispy",
+      "descripcion": "Pechuga crispy, lechuga fresca y tomate en pan brioche. Con papas nativas.",
+      "precio": 12,
+      "etiqueta_ux": "🍗 Crujiente",
+      "imagen": "img/crispy.webp"
+    },
+    {
+      "id": 101,
+      "categoria": "Hamburguesas",
+      "nombre": "Clásica",
+      "descripcion": "Medallón de carne a la plancha, lechuga fresca y tomate en pan brioche. Acompañado con papas nativas.",
+      "precio": 13,
+      "etiqueta_ux": "🏠 Receta casera",
+      "imagen": "img/hamburguesa-clasica.webp",
+      "destacado": true
+    },
+     {
+      "id": 102,
+      "categoria": "Hamburguesas",
+      "nombre": "Tocino y Queso",
+      "descripcion": "Medallón de carne, tocino y queso cheddar, con lechuga y tomate en pan brioche. Con papas nativas.",
+      "precio": 16,
+      "etiqueta_ux": "🥓 Tocino",
+      "imagen": "img/tocino-queso.webp"
+    },
+    {
+      "id": 103,
+      "categoria": "Hamburguesas",
+      "nombre": "Parrillera",
+      "descripcion": "Medallón de carne y chorizo finas hierbas, lechuga, tomate y chimichurri en pan brioche. Con papas nativas.",
+      "precio": 16,
+      "etiqueta_ux": "🌿 chimichurri",
+      "imagen": "img/parrillera.webp",
+      "destacado": true
+    },
+    {
+      "id": 104,
+      "categoria": "Hamburguesas",
+      "nombre": "Doble Nativa",
+      "descripcion": "Dos medallones de carne, dos láminas de queso cheddar, lechuga y tomate en pan brioche. Acompañado con papas nativas.",
+      "precio": 18,
+      "etiqueta_ux": "🍔 Doble carne",
+      "imagen": "img/doble-nativa.svg"
+    },
+    {
+      "id": 105,
+      "categoria": "Hamburguesas",
+      "nombre": "Baby Hamburguesas",
+      "descripcion": "Seis mini hamburguesas clásicas en petipanes suaves, con carne, queso, lechuga y tomate. Acompañado con papas nativas.",
+      "precio": 20,
+      "etiqueta_ux": "👥 Para compartir",
+      "imagen": "img/baby-burger.svg"
+    },
+    {
+      "id": 106,
+      "categoria": "Hamburguesas",
+      "nombre": "Extrema",
+      "descripcion": "Medallón de carne, queso cheddar, tocino, chorizo finas hierbas, hot dog, huevo, lechuga y tomate en pan brioche. Acompañado con papas nativas.",
+      "precio": 22,
+      "etiqueta_ux": "🏆 La más completa",
+      "imagen": "img/extrema.jpg"
+    },
+    {
+      "id": 200,
+      "categoria": "Salchipapas",
+      "nombre": "Salchipapa Clásica",
+      "descripcion": "Papas nativas mezcladas con hot dogs, todo acompañado de salsas.",
+      "precio": 11,
+      "etiqueta_ux": "🍟 La de siempre",
+      "imagen": "img/salchipapa-clasica.webp",
+      "destacado": true
+    },
+    {
+      "id": 201,
+      "categoria": "Salchipapas",
+      "nombre": "Choripapa",
+      "descripcion": "Papas nativas mezcladas con chorizo finas hierbas, todo acompañado de salsas.",
+      "precio": 13,
+      "etiqueta_ux": "🌭 Con chorizo",
+      "imagen": "img/salchipapa-extrema.svg"
+    },
+    {
+      "id": 202,
+      "categoria": "Salchipapas",
+      "nombre": "Salchichorizo",
+      "descripcion": "Papas nativas mezcladas con hot dog y chorizo finas hierbas, todo acompañado de salsas.",
+      "precio": 15,
+      "etiqueta_ux": "🌭 Dúo de embutidos",
+      "imagen": "img/salchichorizo.webp"
+    },
+    
+    {
+      "id": 203,
+      "categoria": "Salchipapas",
+      "nombre": "Choricrispy",
+      "descripcion": "Papas nativas mezcladas con chorizo finas hierbas y pollo crispy, todo acompañado de salsas.",
+      "precio": 18,
+      "etiqueta_ux": "🍗 Crujiente",
+      "imagen": "img/choricrispy.webp"
+    },
+    {
+      "id": 204,
+      "categoria": "Salchipapas",
+      "nombre": "Salchipapa Extrema",
+      "descripcion": "Papas nativas mezcladas con hot dog, chorizo finas hierbas y pollo crispy, todo acompañado de salsas.",
+      "precio": 28,
+      "etiqueta_ux": "👥 Para compartir",
+      "imagen": "img/salchipapa-extrema.webp",
+      "destacado": true
+    },
+    {
+      "id": 300,
+      "categoria": "Broaster",
+      "nombre": "Pollo Broaster",
+      "descripcion": "Pollo broaster con papas nativas y ensalada fresca. Acompañado de cremas a elegir.",
+      "precio": 13,
+      "etiqueta_ux": "🍗 Crujiente",
+      "imagen": "img/pollo-broaster.webp",
+      "destacado": true
+    },
+    {
+      "id": 301,
+      "categoria": "Broaster",
+      "nombre": "Tenders de Pollo",
+      "descripcion": "Tiras de pollo empanizado con papas nativas y ensalada fresca, todo acompañado de cremas.",
+      "precio": 15,
+      "etiqueta_ux": "🍗 Crujiente",
+      "imagen": "img/salchipapa-extrema.svg"
+    },
+    {
+      "id": 400,
+      "categoria": "Economicas",
+      "nombre": "Papas Nativas (Pequeña)",
+      "descripcion": "Porción de papas fritas nativas.",
+      "precio": 4.5,
+      "etiqueta_ux": "🍟 Porción personal",
+      "imagen": "img/papas-nativas.webp"
+    },
+    {
+      "id": 401,
+      "categoria": "Economicas",
+      "nombre": "Papas Nativas (Mediana)",
+      "descripcion": "Porción de papas fritas nativas",
+      "precio": 7,
+      "etiqueta_ux": "🍟 Porción personal",
+      "imagen": "img/papas-medianas.webp",
+      "destacado": true
+    },
+    {
+      "id": 402,
+      "categoria": "Economicas",
+      "nombre": "Pizza Artesanal Nativa",
+      "descripcion": "Mini pizza artesanal, salsa de tomate casera, mozzarella y pepperoni.",
+      "precio": 5,
+      "etiqueta_ux": "🍕 Porción personal",
+      "imagen": "img/pizza-nativa.webp",
+      "destacado": true
+    },
+    {
+      "id": 403,
+      "categoria": "Economicas",
+      "nombre": "Choripán",
+      "descripcion": "Chorizo finas hierbas, papa al hilo con chimichurri en pan ciabatta.",
+      "precio": 8.5,
+      "etiqueta_ux": "🌭 Porción personal",
+      "imagen": "img/choripan.svg",
+      "destacado": true
+    },
+    {
+      "id": 404,
+      "categoria": "Economicas",
+      "nombre": "Frankfurter",
+      "descripcion": "Salchicha frankfurter con pan y papas al hilo.",
+      "precio": 5,
+      "etiqueta_ux": "🌭 Porción personal",
+      "imagen": "img/frankfurter.svg"
+    },
+       {
+      "id": 405,
+      "categoria": "Economicas",
+      "nombre": "Hamburguesa San Fernando",
+      "descripcion": "Hamburguesa San Fernando, papas nativas, lechuga y tomate. Acompañada de cremas a elegir.",
+      "precio": 6,
+      "etiqueta_ux": "Crocante",
+      "imagen": "img/san-fernando.webp",
+      "destacado": true
+    },
+    {
+      "id": 500,
+      "categoria": "Complementos",
+      "nombre": "Huevo Frito",
+      "descripcion": "",
+      "precio": 2,
+      "etiqueta_ux": "➕ Extra",
+      "imagen": "img/huevo-extra.webp"
+    },
+    {
+      "id": 501,
+      "categoria": "Complementos",
+      "nombre": "Hot Dog",
+      "descripcion": "",
+      "precio": 2,
+      "etiqueta_ux": "➕ Extra",
+      "imagen": "img/hot-dog.webp"
+    },
+    {
+      "id": 502,
+      "categoria": "Complementos",
+      "nombre": "Plátano Frito",
+      "descripcion": "",
+      "precio": 2,
+      "etiqueta_ux": "➕ Extra",
+      "imagen": "img/platano-frito.webp"
+    },
+    {
+      "id": 503,
+      "categoria": "Complementos",
+      "nombre": "Queso",
+      "descripcion": "",
+      "precio": 2,
+      "etiqueta_ux": "➕ Extra",
+      "imagen": "img/queso.webp"
+    },
+    {
+      "id": 504,
+      "categoria": "Complementos",
+      "nombre": "Tocino",
+      "descripcion": "",
+      "precio": 3,
+      "etiqueta_ux": "➕ Extra",
+      "imagen": "img/tocino.webp"
+    },
+    {
+      "id": 505,
+      "categoria": "Complementos",
+      "nombre": "Chorizo Finas Hierbas",
+      "descripcion": "",
+      "precio": 3,
+      "etiqueta_ux": "➕ Extra",
+      "imagen": "img/chorizo.webp"
+    },
+    {
+      "id": 600,
+      "categoria": "Bebidas",
+      "nombre": "Gaseosa Personal",
+      "descripcion": "Botella personal helada, con burbujas finas. Consulta los sabores disponibles del día.",
+      "precio": 4,
+      "etiqueta_ux": "🧊 Helada",
+      "imagen": "img/gaseosas.webp"
+    },
+    {
+      "id": 601,
+      "categoria": "Bebidas",
+      "nombre": "Agua Mineral",
+      "descripcion": "Botella individual sin gas, bien fría, para acompañar sin competir con el sabor del plato.",
+      "precio": 2.5,
+      "etiqueta_ux": "💧 Sin gass",
+      "imagen": "img/agua-mineral.webp"
+    }
+  ]
+}
